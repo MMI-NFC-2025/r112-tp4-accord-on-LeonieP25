@@ -64,3 +64,16 @@ details p {
 .accordeon > details > summary::-webkit-details-marker {
   display: none;
 }
+
+/* Triangle CSS personnalisé */
+.accordeon > details > summary::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-right: 0.75rem;
+  border-left: 8px solid #333;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  transition: transform 0.3s ease;
+}
