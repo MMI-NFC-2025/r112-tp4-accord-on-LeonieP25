@@ -29,3 +29,14 @@ summary img {
   object-fit: cover;
   border-radius: 4px;
 }
+
+/* Style pour l'accordéon ouvert */
+details[open] {
+  background-color: #f5f5f5;
+  border-color: #333;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
