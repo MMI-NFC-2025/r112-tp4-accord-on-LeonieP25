@@ -77,3 +77,8 @@ details p {
   border-bottom: 6px solid transparent;
   transition: transform 0.3s ease;
 }
+
+/* Rotation du triangle à l'ouverture */
+.accordeon > details[open] > summary::before {
+  transform: rotate(90deg);
+}
