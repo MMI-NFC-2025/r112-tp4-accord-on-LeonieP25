@@ -1,3 +1,31 @@
 /**
 * Accordeon
 */
+
+/* Style de base pour l'accordéon */
+.accordeon {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+details {
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  background-color: white;
+}
+
+summary {
+  cursor: pointer;
+  padding: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+summary img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
